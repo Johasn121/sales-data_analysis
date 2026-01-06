@@ -6,7 +6,7 @@
 3      IF q[i] > 0 AND p[i] > 0
 4         t = q[i] * p[i]
 5         s = s + t
-6          IF t > b
+6          IF t >= b
 7            b = t
 8         END IF
 9     ELSE
@@ -15,3 +15,4 @@
 12 END FOR
 13 PRINT "Total Sales: ", s
      PRINT "Highest Single Sale: ", b
+
